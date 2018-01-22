@@ -1,0 +1,63 @@
+$screen-sm-min : 768px;
+$screen-md-min : 992px;
+$screen-lg-min : 1200px;
+
+//UI视觉定义
+$main_blue :            #0091ea;            //主色蓝、链接
+$secondary_blue :       #5ca1e6;            //辅色蓝
+$third_blue :           #f1f9ff;            //辅色蓝
+
+$warn_red :             #e85043;            //警告红
+$success_green :        #32be78;            //成功绿
+$remind_yellow :        #ffa63a;            //提醒黄
+$orange:                #FF5700;            //橘黄色
+
+$main_grey:             #444444;            //主色灰
+$second_grey:           #333333;
+$content_grey:          #666666;            //正文灰
+$comment_grey:          #999999;            //注释灰
+$ban_grey:              #c7c7c7;            //禁令灰、提示灰
+$line_grey:             #e4e4e4;            //线框灰、分割线
+$cu_grey:               #f1f1f1;            //浅灰
+$bg_grey:               #f9f9f9;            //背景灰
+
+$normal_link:           #0091ea;            //普通链接
+$title_link:            #444444;            //标题链接
+$content_link:          #666666;            //文本链接
+$hover:                 #0091ea;            //hover状态
+$read:                  #999999;            //已读内容链接
+
+$stand_font_size_1:     36px;               //标准字1
+$stand_line_height_1:   48px;               //行高1
+$stand_font_size_2:     32px;               //标准字2
+$stand_line_height_2:   48px;               //行高2
+$stand_font_size_3:     30px;               //标准字3
+$stand_line_height_3:   44px;               //行高3
+$stand_font_size_4:     26px;               //标准字4
+$stand_line_height_4:   36px;               //行高4
+
+$stand_banner_size:     22px;
+$stand_title_size :     18px;
+$stand_subtitle_size:   16px;
+$stand_content_size:    14px;               //正文字体大小
+$stand_subcontent_size: 12px;               //正文大小
+
+
+$number_size:           50px;               //数字大小
+$number_color:          #444;               //数字颜色
+$number_weight:         bold;               //数字加粗
+
+$app_padding_top:       21px;               //app顶部padding
+$app_nav_height:        43px;               //app 导航高度
+
+$pure_white :           #ffffff;            //纯白
+
+//其他颜色
+$other_blue:            #5DA8F3;
+$other_green:           #64c8BE;
+$other_purple:          #BF7ACC;
+$other_coffee:          #E6C8A0;
+$other_yellow:          #FEB358;
+$other_blue1:           #957FFF;
+$other_blue2:           #3DB8FA;
+$other_red:             #FD7D7D;

@@ -1,0 +1,22 @@
+{
+  "restartable": "rs",
+  "verbose": false,
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": "4000"
+  },
+  "execMap": {
+    "": "node --debug",
+    "js": "node --debug"
+  },
+  "watch": [
+    "server/"
+  ],
+  "ignore": [
+    ".git",
+    ".idea",
+    "node_modules",
+    "src"
+  ],
+  "ext": "js jade"
+}

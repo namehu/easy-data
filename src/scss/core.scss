@@ -1,0 +1,65 @@
+@import "config";
+
+@font-face {
+  font-family: "BIFont";
+  src:  local("Rotobo"),
+local('sans-serif'),
+local('Arial');
+  unicode-range: U+00-024F;
+}
+@font-face {
+  font-family: "BIFont";
+  src:  local("PingFangSC-Light"),
+local("思源黑体");
+}
+
+@font-face{
+  font-family:'lato';
+  src:url('/static/fonts/LatoLatin-Light.ttf') format('truetype');
+}
+
+
+/*
+  初始化样式
+*/
+body, hr, p, blockquote,
+dl, dt, dd, ul, ol, li, pre, form, fieldset, legend,
+button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5 tahoma, arial, \5b8b\4f53; }
+//h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:none !important; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+html, body {
+  height: 100%;
+  font-family: 'BIFont','微软雅黑','Microsoft YaHei', '宋体','Helvetica', serif;
+  font-size: 14px;
+  background-color: $bg_grey;
+}
+
+body > section {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.app-section {
+  padding-top: $app_padding_top;
+  /* Status bar height on iOS 11+ */
+  padding-top: env(safe-area-inset-top);
+}
+
+nav.nav.app-nav {
+  padding-top: $app_padding_top;
+  /* Status bar height on iOS 11+ */
+  padding-top: env(safe-area-inset-top);
+}
