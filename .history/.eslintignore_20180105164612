@@ -1,6 +1,0 @@
-/build/
-/config/
-/dist/
-/*.js
-src/router/components.js
-src/router/map/*.js

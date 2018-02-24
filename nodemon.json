@@ -10,7 +10,8 @@
     "js": "node --debug"
   },
   "watch": [
-    "server/"
+    "server/",
+    "server_dist"
   ],
   "ignore": [
     ".git",

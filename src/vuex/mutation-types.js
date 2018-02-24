@@ -1,3 +1,0 @@
-// helpManual module
-export const UPDATE_HELP_MANUAL_TITLE = 'UPDATE_HELP_MANUAL_TITLE'; // 更新标题
-export const UPDATE_HELP_MANUAL_BACK_ICON_STATUS = 'UPDATE_HELP_MANUAL_BACK_ICON_STATUS'; // 更新标题头部显示状态
