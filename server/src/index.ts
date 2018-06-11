@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import projectController from './controllers/project';
+import projectController from './controllers/ProjectController';
 
 const app = express();
 app.use(bodyParser.json());
